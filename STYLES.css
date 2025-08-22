@@ -54,3 +54,11 @@ body{
   height: 100px;
   color: white;
 }
+.video_tekken{
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  left: 15px;
+  width: 200px;
+  height: 100px;
+}
