@@ -19,3 +19,38 @@ body{
   width: 200px;
   height: 100px;
 }
+.texto_SF{
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  left: 500px;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+.texto_tekken{
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  left: 150px;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+.video_MK{
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  left: 700px;
+  width: 200px;
+  height: 100px;
+}
+.texto_MK{
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  left: 800px;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
