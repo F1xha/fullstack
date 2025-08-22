@@ -9,7 +9,7 @@
 	color: white;
 }
 body{
-	background-color: black;
+	background-image: url("fondo.jpg");
 }
 .video_SF{
   position: absolute;
