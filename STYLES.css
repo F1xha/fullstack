@@ -1,91 +1,93 @@
-.titulo{
-	color: white;
-}
-.cabezera{
-	color:white;
-}
-.cuerpo{
-	background-color: green;
-	color: white;
-}
-body{
-	background-image: url("fondo.jpg");
-}
-.video_SF{
-  position: absolute;
-  top: 400px;
-  right: 0px;
-  left: 400px;
-  width: 200px;
-  height: 100px;
-}
-.texto_SF{
-  position: absolute;
-  top: 700px;
-  right: 0px;
-  left: 500px;
-  width: 200px;
-  height: 100px;
+/* ====== ESTILOS GENERALES ====== */
+body {
+  background-image: url("fondo.jpg");
   color: white;
 }
-.texto_Tekken{
-  position: absolute;
-  top: 700px;
-  right: 0px;
-  left: 150px;
-  width: 200px;
-  height: 100px;
+
+.titulo,
+.cabezera,
+.parrafo,
+.texto_Blanco {
   color: white;
 }
-.video_MK{
+
+/* ====== ESTRUCTURA ====== */
+
+.footer {
   position: absolute;
-  top: 400px;
-  right: 0px;
-  left: 700px;
-  width: 200px;
-  height: 100px;
-}
-.texto_MK{
-  position: absolute;
-  top: 700px;
-  right: 0px;
-  left: 800px;
-  width: 200px;
-  height: 100px;
-  color: white;
-}
-.video_tekken{
-  position: absolute;
-  top: 400px;
-  right: 0px;
-  left: 15px;
-  width: 200px;
-  height: 100px;
-}
-.parrafo{
-color: white;
-}
-.footer{
-  position: absolute;
-  bottom: 0;
   top: 1100px;
+  bottom: 0;
   width: 100%;
-  height: 50px; /* Altura del footer */
-  color: white; /* Color del texto del footer */
-  text-align: center; /* Centrar el texto */
-  line-height: 50px; /* Alinear verticalmente el texto */
+  height: 50px;         /* Altura del footer */
+  color: white;         /* Color del texto del footer */
+  text-align: center;   /* Centrar el texto */
+  line-height: 50px;    /* Alinear verticalmente el texto */
 }
-header li a
-{
+
+/* ====== NAVEGACIÓN ====== */
+header li a {
   text-decoration: none;
   list-style: none;
-  color: white
+  color: white;
 }
-nav ul
-{
+
+nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   gap: 2rem;
+}
+
+/* ====== VIDEOS ====== */
+.video_tekken {
+  position: absolute;
+  top: 400px;
+  left: 15px;
+  width: 200px;
+  height: 100px;
+}
+
+.video_SF {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  width: 200px;
+  height: 100px;
+}
+
+.video_MK {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  width: 200px;
+  height: 100px;
+}
+
+/* ====== TEXTOS DE JUEGOS ====== */
+.texto_Tekken {
+  position: absolute;
+  top: 700px;
+  left: 150px;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+
+.texto_SF {
+  position: absolute;
+  top: 700px;
+  left: 500px;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+
+.texto_MK {
+  position: absolute;
+  top: 700px;
+  left: 800px;
+  width: 200px;
+  height: 100px;
+  color: white;
 }
