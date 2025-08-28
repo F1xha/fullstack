@@ -4,9 +4,12 @@
    <link rel="stylesheet" href="../css/STYLES.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
+
+   <div  class="marge">
+
   <h1>INICIAR SECCION</h1>
    
-    <div  class="marge">
+    
     <div class="form-group">
       <label for="usuario">usuario:</label>
       <input type="usuario" class="form-control" id="usuario" placeholder="Enter usuario" name="email">
@@ -15,14 +18,18 @@
       <label for="pwd">contraseña:</label>  
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
       </div> 
-           <button type="button">iniciar seccion</button> 
+           <button type="button" class="btn btn-primary" onclick="mostrarAlerta()">inicia seccion</button> 
 
 
 
 
     </div>
 
-
+   <script>
+    function mostrarAlerta() {
+      alert("seccion iniciada");
+    }
+   </script>
 
 
 
