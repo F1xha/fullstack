@@ -90,3 +90,15 @@ nav ul {
   height: 100px;
   color: white;
 }
+
+/* ====== TEXTOS DE INICIAR SECCION ====== */
+.margen {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.from-group {
+  margin-bottom: 15px;
+  color: blue;
+
+}
