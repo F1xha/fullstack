@@ -2,7 +2,11 @@
 body {
   background-image: url("../img/fondo.jpg");
 }
-
+.logo {
+  position: absolute;
+  left: 1300px;
+  top: 20px;
+}
 .titulo,
 .cabezera,
 .parrafo,
