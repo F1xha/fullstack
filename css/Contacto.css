@@ -6,7 +6,7 @@ body{
     display: flex; /** Organiza el contenido**/
     justify-content: center; /** Centrado horizontal **/
     align-items: center;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255, 34, 0, 0.549) 35%, rgba(100, 6, 6, 0.589) 100%); /** Color de fondo con Gradients **/
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(120, 16, 0) 35%, rgba(100, 6, 6, 0.589) 100%); /** Color de fondo con Gradients **/
 }
 /** Estilos del card **/
 .card{
