@@ -1,8 +1,10 @@
 <!DOCTYPE html> <!-- Especifica que este es un HTML -->
 <html lang="es"> <!-- Especifica el idioma del documento -->
 <head>
-<link rel="stylesheet" href="..\CSS\STYLES.css">
+  <link rel="stylesheet" href="..\CSS\STYLES.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="UTF-8"> <!--Lee caracteres especiales en el navegador-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Hace que la pagina sea responsive a todos los dispositivo(ayuda)-->
 </head>
 <body>
   
@@ -26,7 +28,6 @@
   <!-- CONTENIDO PRINCIPAL DE JUEGOS -->
   <section class="titulo">
     <h1>GameHub</h1>
-    <h2>Mejores juegos de pelea</h2>
 
     <!-- Tekken -->
     <div class="texto_Tekken">
@@ -37,34 +38,25 @@
   o direcciones de correo electrónico, haciendo que el texto o 
   contenido dentro de ella sea un enlace con el que el usuario pueda interactuar. </a>-->
     <a href="https://es.wikipedia.org/wiki/Tekken_8" target="_blank" rel="noopener noreferrer">
-    <div class="video_tekken">
-      <video width="320" height="240" loop autoplay muted>
-        <source src="..\vid\tekken.mp4" type="video/mp4">
-        <source src="video.ogg" type="video/ogg">
-      </video>
+    <div class="tekken">
+  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202308/0312/aff71a0ced271048f5079b1fcf715bcb45110efc13e9704a.png" alt="Tekken 8" width="180" height="250">
     </div>
-    <a>
+  </a>
 
     <!-- Street Fighter -->
     <div class="texto_SF">
       <h3>Street Fighter</h3>
     </div>
-    <div class="video_SF">
-      <video width="320" height="240" loop autoplay muted>
-        <source src="..\vid\S_fight.mp4" type="video/mp4">
-        <source src="video.ogg" type="video/ogg">
-      </video>
+    <div class="SF">
+      <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/s/street-fighter-30th-anniversary-collection-switch/description-image"width="180" height="250">
     </div>
 
     <!-- Mortal Kombat -->
     <div class="texto_MK">
       <h3>Mortal Kombat</h3>
     </div>
-    <div class="video_MK">
-      <video width="320" height="240" loop autoplay muted>
-        <source src="..\vid\MK.mp4" type="video/mp4">
-        <source src="video.ogg" type="video/ogg">
-      </video>
+    <div class="MK">
+      <img src="https://play-lh.googleusercontent.com/LSNV5P_C6MafT84ioYM4OykRJkxRAz7roKXZ6Ljc2ApRGUYSgBcp3OxQjfyM4W1RePPy=w240-h480-rw"width="180" height="250">
     </div>
   </section>
   <button type="button" class="btn btn-primary marge" onclick="mostrarAlerta()">

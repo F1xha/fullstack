@@ -42,16 +42,16 @@ nav ul {
   gap: 2rem;
 }
 
-/* ====== VIDEOS ====== */
-.video_tekken {
+/* ====== Caratula ====== */
+.tekken {
   position: absolute;
   top: 400px;
-  left: 15px;
+  left: 70px;
   width: 200px;
   height: 100px;
 }
 
-.video_SF {
+.SF {
   position: absolute;
   top: 400px;
   left: 400px;
@@ -59,7 +59,7 @@ nav ul {
   height: 100px;
 }
 
-.video_MK {
+.MK {
   position: absolute;
   top: 400px;
   left: 700px;
