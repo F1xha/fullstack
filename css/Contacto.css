@@ -6,7 +6,7 @@ body{
     display: flex; /** Organiza el contenido**/
     justify-content: center; /** Centrado horizontal **/
     align-items: center;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255, 34, 0, 0.549) 35%, rgba(255, 0, 0, 0.589) 100%); /** Color de fondo con Gradients **/
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255, 34, 0, 0.549) 35%, rgba(100, 6, 6, 0.589) 100%); /** Color de fondo con Gradients **/
 }
 /** Estilos del card **/
 .card{
@@ -15,4 +15,10 @@ body{
     padding: 30px 40px; /** Separacion del margen **/
     border-radius: 15px; /** Bordes redondeados **/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /** Sombra del card **/
+}
+/** Estilos del título **/
+h2{
+    text-align: center; /** Centrado del texto **/
+    margin-bottom: 20px; /** Separacion del margen inferior **/
+    color: #333; /** Color del texto **/
 }
