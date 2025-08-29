@@ -4,7 +4,7 @@ body {
 }
 .logo {
   position: absolute;
-  left: 1300px;
+  left: 1800px;
   top: 20px;
 }
 .titulo,
@@ -107,5 +107,5 @@ nav ul {
 
 }
 .contenedor {
-  background-color: rgba(110,178,201);
+  background-color: rgb(0, 0, 0);
  }  /* Fondo semitransparente */
