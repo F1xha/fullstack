@@ -15,16 +15,28 @@
                 <input type="text" name="nombre" placeholder="Escribe tu nombre">
                 <label>Pais</label>
                 <select id="pais" name="pais">
-                    <option>Seleccione un pais:</option>   
-                    <option value="mexico">Mexico</option>
-                    <option value="colombia">Colombia</option>
-                    <option value="argentina">Argentina</option>
-                    <option value="chile">Chile</option>
-                    <option value="peru">Peru</option>
-                    <option value="venezuela">Venezuela</option>
-                </select>          
+                      
+
                 <button type="button">Llenar Formulario</botton>   
             </form>
         </div>
     </body>
 </html>
+<!--Script             mi js que rellena select-->
+<select id="pais"></select>
+
+
+<script>
+
+  const paises = ["Chile", "Argentina", "Perú", "México", "España"];// declro mi arreglo de paises
+
+  const select = document.getElementById("pais");//obtengo el select por su id
+
+
+  paises.forEach(p => {//recorro el arreglo de paises
+
+    select.innerHTML += `<option value="${p}">${p}</option>`;//agrego una opcion al select por cada pais
+
+  });
+
+</script>
