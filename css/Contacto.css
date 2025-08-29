@@ -22,3 +22,31 @@ h2{
     margin-bottom: 20px; /** Separacion del margen inferior **/
     color: #333; /** Color del texto **/
 }
+label{
+    display: block; /** Mostrar como bloque **/
+    margin-top: 15px; /** Separacion del margen inferior **/
+    color: #555; /** Color del texto **/
+    font-weight: bold; /** Tamaño de la fuente **/
+}
+/** inputs y selectores**/
+input, select{
+    width: 100%; /** Ancho completo **/
+    padding: 10px; /** Separacion del margen **/
+    margin-top: 5px; /** Separacion del margen superior **/
+    border: 1px solid #ccc; /** Borde del input **/
+    border-radius: 8px; /** Bordes redondeados **/
+}
+button{
+    width: 100%; /** Ancho completo **/
+    padding: 10px; /** Separacion del margen **/
+    margin-top: 20px; /** Separacion del margen superior **/
+    border: none; /** Sin borde **/
+    border-radius: 8px; /** Bordes redondeados **/
+    background-color: #d10c0c; /** Color de fondo **/
+    color: white; /** Color del texto **/
+    font-size: 16px; /** Tamaño de la fuente **/
+    cursor: pointer; /** Cambia el cursor al pasar por encima **/
+}
+button:hover{
+    background-color: #d11111; /** Color de fondo al pasar por encima **/
+}
