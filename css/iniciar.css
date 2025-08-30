@@ -1,0 +1,24 @@
+.contenedor{
+    margin: 200px;
+    padding: 10px;
+    border: 10px solid #ed0c0c;
+    border-radius: 5px;
+    background-color: white;
+
+}
+body {
+   font-family: Arial, Helvetica, sans-serif; /** Tipografía **/
+    margin: 0;
+    height: 100vh; /** Altura **/
+    display: flex; /** Organiza el contenido**/
+    justify-content: center; /** Centrado horizontal **/
+    align-items: center;
+    background: linear-gradient(90deg, rgb(240, 9, 9) 0%, rgb(120, 16, 0) 35%, rgba(100, 6, 6, 0.589) 100%); /** Color de fondo con Gradients **/
+}
+
+h1{
+    color: violet;
+}
+.marge {
+    margin: 20px;
+}
